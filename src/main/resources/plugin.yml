@@ -1,0 +1,13 @@
+name: AnvilEnchants
+main: me.anvilenchants.AnvilEnchants
+version: 1.0.0
+api-version: '1.21'
+description: AnvilEnchants - allow Sharp6, Unb4, Prot5, Efficiency XX, remove Too Expensive, prevent anvil damage
+commands:
+  giveenchanted:
+    description: Give predefined enchanted books/items (sharp6, unb4, prot5)
+    usage: /giveenchanted <sharp6|unb4|prot5>
+permissions:
+  anvilenchants.give:
+    description: Allow giving enchanted items
+    default: op
